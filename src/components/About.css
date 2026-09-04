@@ -1,0 +1,37 @@
+.about-body p {
+  color: var(--ink);
+  font-size: 16.5px;
+  margin-bottom: 18px;
+  max-width: 640px;
+}
+
+.about-facts {
+  margin-top: 44px;
+  border-top: 1px solid var(--paper-dim);
+  padding-top: 28px;
+}
+
+.about-facts div {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 16px;
+  padding: 10px 0;
+  font-size: 14.5px;
+}
+
+.about-facts dt {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.about-facts dd {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+@media (max-width: 560px) {
+  .about-facts div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}

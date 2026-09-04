@@ -1,0 +1,55 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-row {
+  padding: 34px 0;
+  border-bottom: 1px solid var(--paper-dim);
+}
+
+.project-row:first-child {
+  padding-top: 0;
+}
+
+.project-row-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.project-row-head h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--ink);
+  max-width: 480px;
+}
+
+.project-year {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.project-status {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--copper-dark);
+  margin-top: 8px;
+}
+
+.project-desc {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 15.5px;
+  max-width: 560px;
+}
+
+.project-tech {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--muted);
+}

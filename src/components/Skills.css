@@ -1,0 +1,30 @@
+.skills-ledger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+@media (max-width: 560px) {
+  .skills-ledger {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+.ledger-col h3 {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--copper-dark);
+  margin-bottom: 16px;
+}
+
+.ledger-col ul {
+  list-style: none;
+}
+
+.ledger-col li {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--paper-dim);
+  font-size: 15.5px;
+  color: var(--ink);
+}

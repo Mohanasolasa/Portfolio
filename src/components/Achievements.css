@@ -1,0 +1,21 @@
+.citation {
+  border-left: 3px solid var(--copper);
+  padding: 4px 0 4px 24px;
+}
+
+.citation-line {
+  font-size: 17px;
+  color: var(--ink);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.citation-line em {
+  font-style: italic;
+}
+
+.citation-note {
+  font-size: 15px;
+  color: var(--muted);
+  max-width: 560px;
+}

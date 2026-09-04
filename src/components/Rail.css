@@ -1,0 +1,13 @@
+.trace-rail {
+  position: fixed;
+  left: 28px;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .trace-rail {
+    display: none;
+  }
+}

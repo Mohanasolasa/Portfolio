@@ -1,0 +1,25 @@
+.theme-toggle {
+  background: transparent;
+  border: 1.5px solid var(--paper-dim);
+  border-radius: 999px;
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  margin-left: 18px;
+}
+
+.theme-toggle:hover {
+  border-color: var(--copper);
+  transform: rotate(-8deg);
+}
+
+@media (max-width: 650px) {
+  .theme-toggle {
+    margin-left: auto;
+  }
+}

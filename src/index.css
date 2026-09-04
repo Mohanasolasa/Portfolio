@@ -1,0 +1,119 @@
+:root {
+  --pcb: #16281F;
+  --pcb-light: #1F3A2C;
+  --paper: #FAF7F1;
+  --paper-dim: #F1ECE0;
+  --ink: #1F2E27;
+  --muted: #5F7268;
+  --copper: #C17A45;
+  --copper-dark: #A3652F;
+  --solder: #E4DCC8;
+}
+
+[data-theme='dark'] {
+  --pcb: #0B140F;
+  --pcb-light: #16281F;
+  --paper: #14201A;
+  --paper-dim: #1C2C24;
+  --ink: #F1ECE0;
+  --muted: #9AAFA4;
+  --copper: #E0975C;
+  --copper-dark: #F0AE79;
+  --solder: #26382E;
+}
+
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.65;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.display {
+  font-family: 'Fraunces', serif;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+section {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 100px 32px;
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  section {
+    padding: 70px 24px;
+  }
+}
+
+.section-label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--copper-dark);
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 600;
+  margin-bottom: 44px;
+  max-width: 560px;
+}
+
+.btn {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 24px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: inline-block;
+  border: 1.5px solid transparent;
+}
+
+.btn-primary {
+  background: var(--copper);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--copper-dark);
+}
+
+.btn-outline {
+  border-color: var(--ink);
+  color: var(--ink);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  border-color: var(--copper);
+  color: var(--copper-dark);
+}

@@ -1,26 +1,29 @@
 import './Projects.css';
 
-const projects = [
-  {
-    title: 'Personal Portfolio Website',
-    year: '2026',
-    status: 'In progress',
-    description: "This site — a React app with component architecture, hooks, and a controlled contact form, built to demonstrate real React fundamentals rather than just claim them.",
-    tech: 'React · Vite',
-  },
-  {
-    title: 'Solar-Powered Smart System with Sensor-Based Automation',
-    year: 'May 2025',
-    description: 'A solar-powered classroom system with grid backup and real-time occupancy-based automation over UDP — improved energy efficiency by 20% through adaptive sensor logic.',
-    tech: 'ESP32 · ESP01 · UDP · Sensors',
-  },
-  {
-    title: 'Home Automation System',
-    year: 'Dec 2023',
-    description: 'Motion- and light-sensor-driven home automation with RFID-based door access control.',
-    tech: 'ESP32 · RFID · Sensors',
-  },
-];
+const projects = [{
+  title: 'Circle',
+  year: '2026',
+  description: 'Privacy-first messaging platform with private groups, real-time 1-to-1 messaging, presence, typing indicators, and message receipts.',
+  tech: 'React · Node.js · Express · MongoDB · Socket.io',
+},
+{
+  title: 'SkillSwap',
+  year: '2026',
+  description: 'Peer-to-peer skill exchange platform with compatibility-based matching, real-time chat, scheduling, milestones, and reputation tracking.',
+  tech: 'React · Node.js · Express · MongoDB · Socket.io',
+},
+{
+  title: 'Home Automation System',
+  year: 'Dec 2023',
+  description: 'Motion- and light-sensor-driven home automation with RFID-based door access control and gas/smoke detection.',
+  tech: 'ESP32 · RFID · PIR · MQ2 Sensors',
+},
+{
+  title: 'Personal Portfolio',
+  year: '2026',
+  description: 'Responsive React portfolio showcasing projects, skills, research, achievements, and contact information with reusable components.',
+  tech: 'React · JavaScript · HTML · CSS · Vite',
+},];
 
 export default function Projects() {
   return (

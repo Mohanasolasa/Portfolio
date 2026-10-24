@@ -13,10 +13,10 @@ const projects = [{
   tech: 'React · Node.js · Express · MongoDB · Socket.io',
 },
 {
-  title: 'Home Automation System',
-  year: 'Dec 2023',
-  description: 'Motion- and light-sensor-driven home automation with RFID-based door access control and gas/smoke detection.',
-  tech: 'ESP32 · RFID · PIR · MQ2 Sensors',
+  title: 'FoodLoop',
+  year: '2026',
+  description: 'Food waste management and biogas tracking platform connecting PG owners, collectors, administrators, and processing plants with location-based collector recommendations, route visualization, waste tracking, and biogas production monitoring.',
+  tech: 'React · Node.js · Express · MongoDB · Leaflet · JWT',
 },
 {
   title: 'Personal Portfolio',

@@ -1,7 +1,7 @@
 import './Skills.css';
 
-const shipping = ['HTML', 'CSS', 'JavaScript', 'SQL', 'Git', 'GitHub'];
-const learning = ['React JS'];
+const shipping = ['HTML', 'CSS', 'JavaScript', 'React JS', 'SQL', 'Git', 'GitHub'];
+const learning = ['Node JS', 'Express', 'MongoDB'];
 
 export default function Skills() {
   return (
